@@ -1,0 +1,169 @@
+@keyframes fadeAnim {
+    0% {
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.form__container {
+    width: 46vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .fade {
+        animation-name: fadeAnim;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-iteration-count: initial;
+    }
+
+    .wrapper {
+        width: 40vw;
+        height: 62vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .form__title {
+            width: 40vw;
+            height: 8vh;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            
+            h2 {
+                font-family: 'Poppins';
+                font-weight: 200;
+                font-size: 2.4rem;
+                color: white;
+            }
+        }
+    
+        .su_form {
+            width: 40vw;
+            height: 34vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            form {
+                width: 40vw;
+                height: 34vh;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: column;
+
+                .form__row__top {
+                    width: 40vw;
+                    height: 11vh;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+
+                    .error__msg {
+                        position: absolute;
+                        color: red;
+                        font-family: 'Poppins';
+                        font-size: 0.8rem;
+                        text-align: center;
+                        font-weight: 100;
+                        padding: 10px 0 0 60px;
+                    }
+
+                    input {
+                        width: 15vw;
+                        padding: 16px;
+                        color: white;
+                        border-radius: 150px;
+                        outline: none;
+                        background: transparent;
+                        border: 1px solid white;
+                    }
+                }
+
+                .form__row {
+                    width: 40vw;
+                    height: 11vh;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    input {
+                        width: 35vw;
+                        padding: 16px;
+                        border-radius: 150px;
+                        outline: none;
+                        background: transparent;
+                        border: 1px solid white;
+                        color: white;
+                    }
+                    .error__msg {
+                        position: absolute;
+                        color: red;
+                        font-family: 'Poppins';
+                        font-size: 0.8rem;
+                        text-align: center;
+                        font-weight: 100;
+                        padding: 10px 0 0 60px;
+                    }
+
+
+                    img {
+                        position: absolute;
+                        top: 38.2vh;
+                        right: 5.5vw;
+                        width: 35px;
+                        height: 35px;
+                        cursor: pointer;
+                        transition-duration: 0.2s;
+                    }
+                }
+            }
+        }
+    
+        .su__buttonArea {
+            width: 40vw;
+            height: 20vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .su__btn {
+                width: 12vw;
+                height: 6vh;
+                padding: 8px;
+                background: white;
+                border-radius: 150px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                margin-top: 4vh;
+                transition-duration: 0.25s;
+
+                h3 {
+                    font-family: 'Poppins';
+                    font-weight: 200;
+                    color: #333;
+                    font-size: 0.9rem;
+                }
+            }
+            .su__btn:hover {
+                background:  rgba(119, 0, 255, 0.699);
+                h3 {
+                    color: white;
+                }
+            }
+        }
+    }
+}

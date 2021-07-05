@@ -1,0 +1,226 @@
+@-webkit-keyframes fadeAnim {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeAnim {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.form__container {
+  width: 46vw;
+  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form__container .fade {
+  -webkit-animation-name: fadeAnim;
+          animation-name: fadeAnim;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: initial;
+          animation-iteration-count: initial;
+}
+
+.form__container .wrapper {
+  width: 40vw;
+  height: 62vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.form__container .wrapper .form__title {
+  width: 40vw;
+  height: 8vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.form__container .wrapper .form__title h2 {
+  font-family: 'Poppins';
+  font-weight: 200;
+  font-size: 2.4rem;
+  color: white;
+}
+
+.form__container .wrapper .si_form {
+  margin-top: 3vh;
+  width: 40vw;
+  height: 28vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form__container .wrapper .si_form form {
+  width: 40vw;
+  height: 28vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.form__container .wrapper .si_form form input {
+  width: 24vw;
+  padding: 16px;
+  border-radius: 150px;
+  outline: none;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+.form__container .wrapper .si_form form img {
+  position: absolute;
+  top: 32.2vh;
+  left: 32.2vw;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+
+.form__container .wrapper .si__buttonArea {
+  width: 40vw;
+  height: 23vh;
+  padding-top: 6vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.form__container .wrapper .si__buttonArea .si_btn {
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+
+.form__container .wrapper .si__buttonArea .si_btn:hover {
+  background: rgba(119, 0, 255, 0.699);
+}
+
+.form__container .wrapper .si__buttonArea .si_btn:hover h3 {
+  color: white;
+}
+
+.form__container .wrapper .si__buttonArea .sign_in__button {
+  width: 12vw;
+  height: 4vh;
+  padding: 8px;
+  background: white;
+  border-radius: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.form__container .wrapper .si__buttonArea .sign_in__button h3 {
+  font-family: 'Poppins';
+  font-weight: 200;
+  color: #333;
+  font-size: 0.8rem;
+}
+
+.form__container .wrapper .si__buttonArea .sign_in__google__button {
+  width: 12vw;
+  height: 4vh;
+  padding: 8px;
+  background: white;
+  border-radius: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.form__container .wrapper .si__buttonArea .sign_in__google__button h3 {
+  font-family: 'Poppins';
+  font-weight: 200;
+  color: #333;
+  font-size: 0.8rem;
+}
+
+.form__container .wrapper .si__buttonArea .sign_in__google__button img {
+  width: 3vh;
+  height: 3vh;
+}
+/*# sourceMappingURL=signinFormStyles.css.map */

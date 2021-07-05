@@ -1,0 +1,158 @@
+.crypto__wrapper {
+  width: 22vw;
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+
+.crypto__wrapper .crypto__symbol {
+  width: 7vw;
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.crypto__wrapper .crypto__symbol h2 {
+  font-family: 'Poppins';
+  font-weight: 100;
+  font-size: 1.4rem;
+}
+
+.crypto__wrapper .crypto__name {
+  width: 15vw;
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.crypto__wrapper .crypto__name h2 {
+  font-family: 'Poppins';
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+.crypto__wrapper .crypto__name__gone {
+  display: none;
+}
+
+.crypto__wrapper .crypto__confirm {
+  margin-left: 8vw;
+  position: absolute;
+  width: 10vw;
+  height: 8vh;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: none;
+}
+
+.crypto__wrapper .crypto__confirm_active {
+  padding-left: 3vw;
+  margin-right: 2vw;
+  position: relative;
+  width: 10vw;
+  height: 10vh;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: whitesmoke;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+
+.crypto__wrapper .crypto__confirm_active .confirm {
+  width: 5vw;
+  height: 6vh;
+}
+
+.crypto__wrapper .crypto__confirm_active .confirm img {
+  position: relative;
+  width: 26px;
+  height: 26px;
+}
+
+.crypto__wrapper .crypto__confirm_active .cancel {
+  width: 5vw;
+  height: 6vh;
+}
+
+.crypto__wrapper .crypto__confirm_active .cancel img {
+  position: relative;
+  width: 26px;
+  height: 26px;
+}
+
+.crypto__wrapper:hover, .crypto__wrapper:active {
+  background: #bdbdbd;
+}
+
+.crypto__wrapper:hover .crypto__confirm_active, .crypto__wrapper:active .crypto__confirm_active {
+  background: #bdbdbd;
+}
+
+@media screen and (max-width: 600px) {
+  .crypto__wrapper {
+    min-width: 58vw;
+    height: 10vh;
+  }
+  .crypto__wrapper .crypto__symbol {
+    min-width: 23vw;
+  }
+  .crypto__wrapper .crypto__symbol h2 {
+    font-size: 1.4rem;
+  }
+  .crypto__wrapper .crypto__name {
+    min-width: 35vw;
+  }
+  .crypto__wrapper .crypto__confirm_active {
+    padding-left: 0vw !important;
+    margin-right: 2vw;
+    position: relative;
+    min-width: 31vw;
+    height: 10vh;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: whitesmoke;
+    -webkit-transition-duration: 0.2s;
+            transition-duration: 0.2s;
+  }
+}
+/*# sourceMappingURL=cryptoStyles.css.map */

@@ -1,0 +1,17 @@
+.dropdown__menu {
+    width: 22vw;
+    height: 40vh;
+    margin-top: 5vh; 
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+
+}
+
+@media screen and (max-width: 600px) {
+    .dropdown__menu {
+        min-width: 58vw;
+        height: 40vh;
+        margin-top: 6vh; 
+    }
+}

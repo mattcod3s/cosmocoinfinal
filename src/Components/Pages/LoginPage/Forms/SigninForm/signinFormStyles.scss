@@ -1,0 +1,152 @@
+@keyframes fadeAnim {
+    0% {
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.form__container {
+    width: 46vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .fade {
+        animation-name: fadeAnim;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-iteration-count: initial;
+    }
+
+    .wrapper {
+        width: 40vw;
+        height: 62vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .form__title {
+            width: 40vw;
+            height: 8vh;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            
+            h2 {
+                font-family: 'Poppins';
+                font-weight: 200;
+                font-size: 2.4rem;
+                color: white;
+            }
+        }
+
+        .si_form {
+            margin-top: 3vh;
+            width: 40vw;
+            height: 28vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            form {
+                width: 40vw;
+                height: 28vh;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                flex-direction: column;
+
+                input {
+                    width: 24vw;
+                    padding: 16px;
+                    border-radius: 150px;
+                    outline: none;
+                    background: transparent;
+                    border: 1px solid white;
+                    color: white;
+                }
+
+                img {
+                    position: absolute;
+                    top: 32.2vh;
+                    left: 32.2vw;
+                    width: 35px;
+                    height: 35px;
+                    cursor: pointer;
+                    transition-duration: 0.2s;
+                }
+            }
+        }
+
+        .si__buttonArea {
+            width: 40vw;
+            height: 23vh;
+            padding-top: 6vh;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+
+            .si_btn{
+                transition-duration: 0.2s;
+            }
+
+            .si_btn:hover {
+                background: rgba(119, 0, 255, 0.699);
+                h3{
+                    color: white;
+                }
+            }
+
+            .sign_in__button {
+                width: 12vw;
+                height: 4vh;
+                padding: 8px;
+                background: white;
+                border-radius: 150px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+
+                h3 {
+                    font-family: 'Poppins';
+                    font-weight: 200;
+                    color: #333;
+                    font-size: 0.8rem;
+                }
+            }
+
+            .sign_in__google__button {
+                width: 12vw;
+                height: 4vh;
+                padding: 8px;
+                background: white;
+                border-radius: 150px;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                cursor: pointer;
+
+                h3 {
+                    font-family: 'Poppins';
+                    font-weight: 200;
+                    color: #333;
+                    font-size: 0.8rem;
+                }
+
+                img {
+                    width: 3vh;
+                    height: 3vh;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,187 @@
+.dropdown__cont {
+    position: absolute;
+    width: 24vw;
+    height: 50vh;
+    border-radius: 12px;
+    background: whitesmoke;
+    z-index: 5;
+    left: 61vw;
+    top: 21vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    img {
+        position: absolute;
+        left: 10px;
+        top: 15px;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+    }
+}
+
+.dropdown__closed {
+    display: none;
+}
+
+.watchlist__container {
+    width: 70vw;
+    height: 70vh;
+    border-radius: 12px;
+    backdrop-filter: blur(10px) brightness(60%);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 8vh;
+    display: flex;
+    flex-direction: column;
+    transition-duration: 0.3s;
+    margin-top: 20vh;
+    z-index: 3;
+
+    .watchlist__header {
+        width: 70vw;
+        height: 15vh;
+        border-radius: 12px;
+        background: rgb(26, 26, 26);
+        display: flex;
+        flex-direction: row;
+
+        .header__title {
+            width: 40vw;
+            height: 15vh;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            h3 {
+                padding-left: 3vw;
+                font-family: 'Poppins';
+                font-size: 2rem;
+                color: white;
+
+            }
+        }
+
+        .header__add {
+            width: 30vw;
+            height: 15vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            .add__area {
+                width: 14vw;
+                height: 6vh;
+                border-radius: 100px;
+                background: #333;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-right: -12vw;
+                cursor: pointer;
+    
+                .add_icon {
+                    width: 3.5vw;
+                    height: 6vh;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    img {   
+                        width: 35px;
+                        height: 35px;
+                    }
+                }
+    
+                .add_text {
+                    width: 10.5vw;
+                    height: 6vh;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    h4 {
+                        font-family: 'Poppins';
+                        font-size: 0.75rem;
+                        color: white;
+                    }
+                }
+            }
+
+        }
+    }
+
+    .watchlist__main {
+        width: 70vw;
+        height: 55vh;
+        border-radius: 12px;
+        overflow-y: scroll;
+        padding: 20px;
+        box-sizing: border-box;
+
+        .no__crypto__added {
+            position: absolute;
+            width: 66vw;
+            height: 48vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            h2 {
+                font-size: 2rem;
+                color: white;
+                font-family: 'Poppins';
+                font-weight: 100;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .dropdown__cont {
+        min-width: 70vw;
+        max-height: 40vh;
+        left: 15vw !important;
+        top: 21vh;
+    }
+
+    .watchlist__header {
+        .header__title {
+            max-width: 35vw;
+            height: 15vh;
+            h3 {
+                font-size: 1.2rem !important;
+            }
+        }
+
+        .header__add {
+            min-width: 50vw;
+            
+            .add__area {
+                min-width: 30vw;
+                max-height: 5vh;
+                justify-content: space-between;
+                margin-right: -2vw !important;
+    
+                .add_icon {
+                    min-width: 8vw;
+                    height: 6vh;
+                    
+                    img {   
+                        max-width: 20px;
+                        max-height: 20px;
+                    }
+                }
+    
+                .add_text {
+                    min-width: 22vw;
+                    justify-content: center !important;
+                    h4 {
+                        padding-right: 2vw;
+                        font-size: 0.4rem !important;
+                    }
+                }
+            }
+
+        }
+    }
+    
+}

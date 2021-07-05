@@ -1,0 +1,183 @@
+.dashboard__header {
+  position: fixed;
+  width: 100vw;
+  height: 10vh;
+  background: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 0;
+  left: 0;
+}
+
+.dashboard__header .logo__area {
+  width: 70vw;
+  height: 10vh;
+}
+
+.dashboard__header .logo__area .logo {
+  width: 14vw;
+  height: 10vh;
+  background-image: url(../../../cosmoLogo.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 20px;
+}
+
+.dashboard__header .profile__area {
+  width: 28vw;
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dashboard__header .profile__area .profile__details {
+  width: 16vw;
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dashboard__header .profile__area .profile__details .profile__img {
+  width: 4vw;
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dashboard__header .profile__area .profile__details .profile__img img {
+  width: 35px;
+  height: 35px;
+  border-radius: 150px;
+}
+
+.dashboard__header .profile__area .profile__details .profile__name {
+  width: 6vw;
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dashboard__header .profile__area .profile__details .profile__name h3 {
+  font-family: 'Poppins';
+  color: white;
+  font-weight: 200;
+}
+
+.dashboard__header .profile__area .logout__buttonArea {
+  width: 10vw;
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dashboard__header .profile__area .logout__buttonArea .logout__btn {
+  width: 100px;
+  height: 40px;
+  border-radius: 150px;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+
+.dashboard__header .profile__area .logout__buttonArea .logout__btn h4 {
+  font-family: 'Poppins';
+  font-weight: 200;
+  color: black;
+  font-size: 0.8rem;
+}
+
+.dashboard__header .profile__area .logout__buttonArea .logout__btn:hover {
+  background: #202020;
+}
+
+.dashboard__header .profile__area .logout__buttonArea .logout__btn:hover h4 {
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .logo__area {
+    max-width: 50vw;
+  }
+  .logo__area .logo {
+    max-width: 35vw;
+    margin: 25px 20px 20px 20px !important;
+  }
+  .profile__area {
+    min-width: 50vw;
+    -ms-flex-pack: distribute !important;
+        justify-content: space-around !important;
+  }
+  .profile__area .profile__details {
+    min-width: 25vw;
+  }
+  .profile__area .profile__details .profile__img {
+    min-width: 8vw;
+  }
+  .profile__area .profile__details .profile__img img {
+    max-width: 25px;
+    max-height: 25px;
+  }
+  .profile__area .profile__details .profile__name {
+    min-width: 12vw;
+  }
+  .profile__area .profile__details .profile__name h3 {
+    font-size: 0.7rem !important;
+  }
+  .profile__area .logout__buttonArea {
+    min-width: 25vw;
+  }
+  .profile__area .logout__buttonArea .logout__btn {
+    max-width: 70px;
+    max-height: 35px;
+  }
+  .profile__area .logout__buttonArea .logout__btn h4 {
+    font-size: 0.6rem !important;
+  }
+}
+/*# sourceMappingURL=headerMainStyles.css.map */

@@ -1,0 +1,136 @@
+.crypto__widget {
+    width: 66vw;
+    height: 16vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .crypto__symbol {
+        width: 14vw;
+        height: 16vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
+        h1 {
+            color: white;
+            font-family: 'Poppins';
+            font-weight: 100;
+            font-size: 2rem;
+        }
+    }
+    .crypto__name {
+        width: 14vw;
+        height: 16vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
+        h2 {
+            color: white;
+            font-family: 'Poppins';
+            font-weight: 200;
+            font-size: 1.2rem;
+        }
+    }
+
+    .crypto__value {
+        width: 24vw;
+        height: 16vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        span {
+            margin: -12px 6px 0 0;
+            padding: 3px;
+            font-family: 'Poppins';
+            font-weight: 200;
+            font-size: 0.8rem;
+            border-radius: 3px;
+            box-sizing: border-box;
+            
+        }
+        h2 {
+            font-family: 'Poppins';
+            font-weight: 200;
+            font-size: 1.2rem;
+        }
+    }
+
+    .crypto__delete {
+        width: 7vw;
+        height: 16vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+        .delete__button {
+            width: 7vw;
+            height: 16vh;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+           
+
+            img {
+                width: 30px;
+                height: 30px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .crypto__widget {
+        .crypto__symbol {
+            max-width: 6vw;
+
+            h1 {
+                font-size: 1.4rem !important;
+            }
+        }
+        .crypto__name {
+            display: none;
+        }
+
+        .crypto__value {
+            max-width: 18vw;
+            flex-direction: column !important;
+            
+            span {
+                margin: -12px 40px 10px 0 !important;
+                padding: 3px !important;
+                font-size: 0.6rem !important;
+            }
+            h2 {
+                font-size: 0.9rem !important;
+            }
+        }
+
+        .crypto__delete {
+            min-width: 15vw;
+            height: 16vh;
+            display: flex;
+            
+            .delete__button {
+                min-width: 15vw;
+                height: 16vh;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            
+
+                img {
+                    max-width: 20px;
+                    max-height: 20px;
+                    
+                }
+            }
+        }
+    }
+}

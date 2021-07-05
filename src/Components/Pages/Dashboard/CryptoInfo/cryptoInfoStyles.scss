@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
+
+.crypto__info__box {
+    margin-top: 10vh;
+    width: 60vw;
+    height: 80vh;
+    background: rgb(10, 10, 10);
+    border-radius: 12px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .exit {
+        width: 60vw;
+        height: 10vh;
+        h1 {
+            color: white;
+            font-family: 'Train One';
+            padding: 1vw;
+            font-size: 2rem;
+            cursor: pointer;
+        }
+    }
+
+    .info__main {
+        width: 60vw;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        
+        .info__main__top{
+            width: 60vw;
+            height: 20vh;
+            display: flex;
+           
+
+            .symbol {
+                width: 30vw;
+                height: 25vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+                h2 {
+                    font-family: 'Poppins';
+                    font-weight: 100;
+                    font-size: 5rem;
+                    color: white;
+                    
+                }
+            }
+            
+            .value {
+                width: 30vw;
+                height: 25vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+                h2 {
+                    font-family: 'Poppins';
+                    font-weight: 200;
+                    font-size: 2rem;
+                    color: rgb(141, 228, 70);
+                    margin-right: 5vw;
+                }
+
+                .percent1hr {
+                    padding: 10px 10px 20px 10px;
+                    h4 {
+                        font-family: 'Poppins';
+                        font-weight: 200;
+                        font-size: 0.9rem;
+                        padding: 3px;
+                        border-radius: 3px;
+                        
+                    }
+                }
+            }
+        }
+
+        .info__mid__row {
+            width: 60vw;
+            height: 15vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            .topNameArea {
+                width: 35vw;
+                height: 15vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .name {
+                    color: whitesmoke;
+                    font-family: 'Poppins';
+                    span {
+                        font-size: 0.8rem;
+                        font-style: italic;
+                        margin-left: -5vw;
+                        font-weight: 200;
+                        border-bottom: 1px solid white;
+                    }
+
+                    h2 {
+                        padding: 10px;
+                        font-size: 1.2rem;
+                        font-weight: 300;
+                    }
+                }
+            }
+
+            .bottomDataArea {
+                width: 22vw;
+                height: 15vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .marketCap {
+                    color: whitesmoke;
+                    font-family: 'Poppins';
+                    span {
+                        font-size: 0.8rem;
+                        font-style: italic;
+                        margin-left: -5vw;
+                        font-weight: 200;
+                        border-bottom: 1px solid white;
+                    }
+
+                    h2 {
+                        padding: 10px;
+                        font-size: 1.2rem;
+                        font-weight: 300;
+                    }
+                }
+            }
+        }
+
+        .info__chart__area {
+            width: 60vw;
+            height: 35vh;
+            display: flex;
+            overflow: hidden;
+            
+            canvas {
+                width: 60vw !important;
+                height: 30vh !important;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .crypto__info__box {
+        margin-top: 10vh;
+        min-width: 70vw;
+        max-height: 60vh;
+        .exit {
+            min-width: 70vw;
+            height: 8vh;
+            h1 {
+                padding: 3vw !important;
+                font-size: 1.6rem !important;
+            }
+        }
+    
+        .info__main {
+            min-width: 70vw;
+            max-height: 60vh;
+            
+            .info__main__top{
+                min-width: 70vw;
+                height: 20vh;
+    
+                .symbol {
+                    min-width: 35vw;
+                    
+                    h2 {
+                        font-size: 3.4rem !important;
+                    }
+                }
+                
+                .value {
+                    min-width: 35vw;
+                    flex-direction: column !important;
+                    
+                    h2 {
+                        
+                        font-size: 1.6rem !important;
+                        margin-right: -4vw !important;
+                    }
+    
+                    .percent1hr {
+                        padding: 0px !important;
+                        h4 {
+                            margin: 0vw 16vw 2vw 0vw;
+                            font-size: 0.7rem;
+                            padding: 4px;
+                        }
+                    }
+                }
+            }
+    
+            .info__mid__row {
+                min-width: 70vw;
+                height: 15vh;
+                justify-content: space-around !important;
+                
+                .topNameArea {
+                    min-width: 30vw;
+                    height: 15vh;
+                    justify-content: center;
+    
+                    .name {
+                        span {
+                            font-size: 0.65rem;
+                            margin-left: -2vw;
+                        }
+    
+                        h2 {
+                            padding: 10px;
+                            font-size: 0.85rem;
+                        }
+                    }
+                }
+    
+                .bottomDataArea {
+                    min-width: 30vw;
+                    height: 15vh;
+                    justify-content: center;
+                    
+                    .marketCap {
+                       
+                        span {
+                            font-size: 0.65rem;
+                            margin-left: -2vw;
+                        }
+    
+                        h2 {
+                            padding: 10px;
+                            font-size: 0.85rem;
+                        }
+                    }
+                }
+            }
+    
+            .info__chart__area {
+                min-width: 70vw;
+                max-height: 20vh;
+                
+                canvas {
+                    min-width: 70vw !important;
+                    max-height: 20vh !important;
+                }
+            }
+        }
+    }
+}

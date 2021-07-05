@@ -1,0 +1,158 @@
+@-webkit-keyframes fadeAnim {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeAnim {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.signin__card {
+  width: 24vw;
+  height: 70vh;
+  border-radius: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.signin__card .fade {
+  -webkit-animation-name: fadeAnim;
+          animation-name: fadeAnim;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: initial;
+          animation-iteration-count: initial;
+}
+
+.signin__card .si__card__details {
+  width: 20vw;
+  height: 40vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.signin__card .si__card__details .si__title {
+  width: 20vw;
+  height: 12vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.signin__card .si__card__details .si__title h3 {
+  font-family: 'Poppins';
+  font-weight: 300;
+  font-size: 2rem;
+  color: whitesmoke;
+}
+
+.signin__card .si__card__details .si__blurb {
+  width: 20vw;
+  height: 18vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.signin__card .si__card__details .si__blurb p {
+  font-family: 'Poppins';
+  font-weight: 100;
+  font-size: 1rem;
+  line-height: 26px;
+  color: whitesmoke;
+}
+
+.signin__card .si__card__details .si__button {
+  width: 20vw;
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.signin__card .si__card__details .si__button .si__btn {
+  width: 10vw;
+  height: 4vw;
+  border-radius: 150px;
+  background: rgba(119, 0, 255, 0.699);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+}
+
+.signin__card .si__card__details .si__button .si__btn h3 {
+  font-family: 'Poppins';
+  color: white;
+  font-weight: 200;
+}
+
+.signin__card .si__card__details .si__button .si__btn:hover, .signin__card .si__card__details .si__button .si__btn:active {
+  background: rgba(212, 210, 214, 0.973);
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+
+.signin__card .si__card__details .si__button .si__btn:hover h3, .signin__card .si__card__details .si__button .si__btn:active h3 {
+  color: #7700ff;
+}
+/*# sourceMappingURL=signinCardStyles.css.map */

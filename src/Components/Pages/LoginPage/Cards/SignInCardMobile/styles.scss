@@ -1,0 +1,99 @@
+@keyframes fadeAnim {
+    0% {
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.signin__card__mobile {
+    width: 66vw;
+    height: 30vh;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .fade {
+        animation-name: fadeAnim;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-iteration-count: initial;
+    }
+
+    .si__card__details {
+        width: 66vw;
+        height: 26vh;
+        display: flex;
+        flex-direction: column;
+
+        .si__title {
+            width: 66vw;
+            height: 8vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            h3 {
+                font-family: 'Poppins';
+                font-weight: 300;
+                font-size: 1.6rem;
+                color: whitesmoke;
+            }
+        }
+
+        .si__blurb {
+            width: 66vw;
+            height: 9vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            p {
+                font-family: 'Poppins';
+                font-weight: 100;
+                font-size: 0.6rem;
+                line-height: 26px;
+                color: whitesmoke;
+            }
+        }
+
+        .si__button {
+            width: 66vw;
+            height: 9vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            .si__btn {
+                width: 20vw;
+                height: 8vw;
+                border-radius: 150px;
+                background: rgba(119, 0, 255, 0.699);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                transition-duration: 0.2s;
+                transform: translateY(0px);
+
+                h3 {
+                    font-family: 'Poppins';
+                    color: white;
+                    font-weight: 200;
+                }
+            }
+            .si__btn:hover, .si__btn:active {
+                background: rgba(212, 210, 214, 0.973);
+                transform: translateY(-5px);
+                h3 {
+                    color: rgb(119, 0, 255);
+                }
+            }
+        }
+    }
+}

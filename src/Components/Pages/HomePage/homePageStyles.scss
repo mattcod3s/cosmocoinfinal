@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+.home__page {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1000' height='600' preserveAspectRatio='none' viewBox='0 0 1000 600'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1154%26quot%3b)' fill='none'%3e%3crect width='1000' height='600' x='0' y='0' fill='rgba(0%2c 0%2c 0%2c 1)'%3e%3c/rect%3e%3cpath d='M627.924%2c400.702C666.596%2c401.001%2c701.543%2c381.16%2c723.03%2c349.006C747.575%2c312.275%2c766.352%2c265.184%2c743.913%2c227.13C721.683%2c189.43%2c671.69%2c187.582%2c627.924%2c187.714C584.483%2c187.845%2c534.913%2c190.236%2c513.138%2c227.825C491.331%2c265.47%2c511.263%2c311.314%2c535.328%2c347.557C556.427%2c379.333%2c589.782%2c400.408%2c627.924%2c400.702' fill='rgba(140%2c 20%2c 219%2c 0.21)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1012.302%2c407.539C1076.593%2c406.999%2c1137.466%2c374.138%2c1168.218%2c317.677C1197.785%2c263.393%2c1187.121%2c198.091%2c1155.217%2c145.146C1124.441%2c94.072%2c1071.916%2c57.545%2c1012.302%2c58.931C954.754%2c60.269%2c910.57%2c102.479%2c880.448%2c151.533C848.439%2c203.66%2c823.778%2c265.951%2c851.786%2c320.332C881.669%2c378.353%2c947.04%2c408.087%2c1012.302%2c407.539' fill='rgba(140%2c 20%2c 219%2c 0.21)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M784.937%2c482.747C803.184%2c481.573%2c815.487%2c466.555%2c825.064%2c450.979C835.316%2c434.305%2c845.976%2c415.124%2c837.301%2c397.579C827.916%2c378.598%2c806.037%2c368.056%2c784.937%2c369.823C766.156%2c371.396%2c755.258%2c388.913%2c745.837%2c405.237C736.421%2c421.553%2c726.266%2c439.968%2c734.75%2c456.787C743.842%2c474.811%2c764.792%2c484.043%2c784.937%2c482.747' fill='rgba(140%2c 20%2c 219%2c 0.21)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M316.191%2c577.169C347.26%2c578.517%2c378.733%2c567.614%2c395.581%2c541.476C413.826%2c513.171%2c416.89%2c476.386%2c399.893%2c447.314C383.036%2c418.482%2c349.588%2c405.994%2c316.191%2c405.688C282.167%2c405.377%2c245.676%2c415.668%2c229.793%2c445.758C214.595%2c474.55%2c230.012%2c507.865%2c247.898%2c535.069C263.644%2c559.018%2c287.556%2c575.927%2c316.191%2c577.169' fill='rgba(140%2c 20%2c 219%2c 0.21)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M852.675%2c250.681C907.734%2c249.555%2c952.872%2c213.209%2c981.639%2c166.249C1012.03%2c116.638%2c1031.054%2c55.963%2c1003.271%2c4.845C974.502%2c-48.087%2c912.713%2c-76.02%2c852.675%2c-71.028C799.562%2c-66.612%2c766.4%2c-19.559%2c739.997%2c26.737C713.934%2c72.437%2c690.589%2c124.724%2c714.235%2c171.72C739.827%2c222.583%2c795.748%2c251.846%2c852.675%2c250.681' fill='rgba(140%2c 20%2c 219%2c 0.21)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M103.244%2c302.096C127.182%2c302.957%2c148.406%2c286.795%2c159.447%2c265.539C169.692%2c245.816%2c165.903%2c222.573%2c154.442%2c203.531C143.38%2c185.151%2c124.686%2c172.815%2c103.244%2c172.159C80.579%2c171.465%2c57.301%2c180.386%2c46.314%2c200.222C35.591%2c219.582%2c42.833%2c242.416%2c53.629%2c261.735C64.776%2c281.682%2c80.409%2c301.275%2c103.244%2c302.096' fill='rgba(140%2c 20%2c 219%2c 0.21)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M286.268%2c644.226C329.883%2c645.457%2c369.449%2c619.443%2c391.09%2c581.556C412.556%2c543.977%2c411.636%2c498.601%2c391.26%2c460.42C369.529%2c419.699%2c332.419%2c384.403%2c286.268%2c385.136C241.024%2c385.854%2c207.073%2c423.162%2c186.894%2c463.664C168.997%2c499.586%2c171.868%2c540.754%2c191.219%2c575.914C211.382%2c612.55%2c244.467%2c643.046%2c286.268%2c644.226' fill='rgba(140%2c 20%2c 219%2c 0.21)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M670.723%2c44.484C689.385%2c44.042%2c708.932%2c40.932%2c719.389%2c25.469C731.074%2c8.19%2c732.976%2c-14.491%2c722.991%2c-32.805C712.599%2c-51.865%2c692.432%2c-63.745%2c670.723%2c-63.794C648.93%2c-63.844%2c628.923%2c-51.926%2c618.041%2c-33.044C607.174%2c-14.188%2c605.662%2c9.873%2c617.894%2c27.873C629.014%2c44.237%2c650.944%2c44.952%2c670.723%2c44.484' fill='rgba(140%2c 20%2c 219%2c 0.21)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M745.562%2c631.256C767.513%2c629.696%2c787.446%2c620.403%2c799.908%2c602.266C814.579%2c580.913%2c826.745%2c553.924%2c814.312%2c531.196C801.566%2c507.896%2c772.112%2c502.275%2c745.562%2c502.92C720.343%2c503.532%2c696.012%2c513.186%2c682.36%2c534.399C667.483%2c557.515%2c660.933%2c588.056%2c675.955%2c611.077C690.104%2c632.761%2c719.735%2c633.092%2c745.562%2c631.256' fill='rgba(140%2c 20%2c 219%2c 0.21)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1154'%3e%3crect width='1000' height='600' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+    z-index: 1;
+
+    .home__card {
+        width: 40vw;
+        height: 56vh;
+        position: absolute;
+        left: 10vw;
+        top: 20vh;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        .logo {
+            width: 40vw;
+            height: 12vh;
+            background-image: url(../../../cosmoLogo.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        .home__blurb{
+            width: 35vw;
+            height: 28vh;
+            display: flex;
+            justify-content: flex-start;
+            align-items:center;
+
+            h3 {
+                margin-top: -10px;
+                font-family: 'Poppins';
+                color: whitesmoke;
+                font-size: 2rem;
+                line-height: 40px;
+                font-weight: 100;
+            }
+        }
+
+        .home__btns {
+            width: 24vw;
+            height: 16vh;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .home__btn {
+                width: 10vw;
+                height: 4vw;
+                border-radius: 150px;
+                background: rgba(119, 0, 255, 0.699);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                transition-duration: 0.2s;
+                transform: translateY(0px);
+
+                h3 {
+                    font-family: 'Poppins';
+                    color: white;
+                    font-weight: 200;
+                }
+            }
+            .home__btn:hover, .home__btn:active {
+                background: rgba(212, 210, 214, 0.973);
+                transform: translateY(-5px);
+                h3 {
+                    color: rgb(119, 0, 255);
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 3000px) {
+    .home__card {
+        top: 30vh !important; 
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        .logo {
+            max-width: 30vw;
+            max-height: 10vh;
+        }
+
+        .home__blurb{
+            h3 {
+                font-size: 3.4rem !important;
+                line-height: 80px !important;
+            }
+        }
+
+        .home__btn {
+
+            h3 {
+                
+                font-size: 2.4rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .logo {
+        left: 10vw;
+        top: 12vh !important;
+        width: 80vw !important;
+        height: 65px !important;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .home__card {
+        height: 75vh !important;
+
+        .home__blurb{
+            height: 40vh !important;
+            h3 {
+                font-size: 1.4rem !important;
+                line-height: 30px !important;
+            }
+        }
+
+        .home__btns {
+            width: 80vw !important;
+            height: 20vh !important;
+
+            .home__btn {
+                width: 34vw !important;
+                height: 14vw !important;
+            }
+        }
+    }
+}
+

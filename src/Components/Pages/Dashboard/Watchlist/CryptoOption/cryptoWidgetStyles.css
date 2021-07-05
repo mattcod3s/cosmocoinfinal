@@ -1,0 +1,171 @@
+.crypto__widget {
+  width: 66vw;
+  height: 16vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.crypto__widget .crypto__symbol {
+  width: 14vw;
+  height: 16vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.crypto__widget .crypto__symbol h1 {
+  color: white;
+  font-family: 'Poppins';
+  font-weight: 100;
+  font-size: 2rem;
+}
+
+.crypto__widget .crypto__name {
+  width: 14vw;
+  height: 16vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.crypto__widget .crypto__name h2 {
+  color: white;
+  font-family: 'Poppins';
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+
+.crypto__widget .crypto__value {
+  width: 24vw;
+  height: 16vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.crypto__widget .crypto__value span {
+  margin: -12px 6px 0 0;
+  padding: 3px;
+  font-family: 'Poppins';
+  font-weight: 200;
+  font-size: 0.8rem;
+  border-radius: 3px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.crypto__widget .crypto__value h2 {
+  font-family: 'Poppins';
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+
+.crypto__widget .crypto__delete {
+  width: 7vw;
+  height: 16vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.crypto__widget .crypto__delete .delete__button {
+  width: 7vw;
+  height: 16vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.crypto__widget .crypto__delete .delete__button img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .crypto__widget .crypto__symbol {
+    max-width: 6vw;
+  }
+  .crypto__widget .crypto__symbol h1 {
+    font-size: 1.4rem !important;
+  }
+  .crypto__widget .crypto__name {
+    display: none;
+  }
+  .crypto__widget .crypto__value {
+    max-width: 18vw;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .crypto__widget .crypto__value span {
+    margin: -12px 40px 10px 0 !important;
+    padding: 3px !important;
+    font-size: 0.6rem !important;
+  }
+  .crypto__widget .crypto__value h2 {
+    font-size: 0.9rem !important;
+  }
+  .crypto__widget .crypto__delete {
+    min-width: 15vw;
+    height: 16vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .crypto__widget .crypto__delete .delete__button {
+    min-width: 15vw;
+    height: 16vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .crypto__widget .crypto__delete .delete__button img {
+    max-width: 20px;
+    max-height: 20px;
+  }
+}
+/*# sourceMappingURL=cryptoWidgetStyles.css.map */

@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css2?family=Train+One&display=swap");
+.crypto__info__box {
+  margin-top: 10vh;
+  width: 60vw;
+  height: 80vh;
+  background: #0a0a0a;
+  border-radius: 12px;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.crypto__info__box .exit {
+  width: 60vw;
+  height: 10vh;
+}
+
+.crypto__info__box .exit h1 {
+  color: white;
+  font-family: 'Train One';
+  padding: 1vw;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.crypto__info__box .info__main {
+  width: 60vw;
+  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.crypto__info__box .info__main .info__main__top {
+  width: 60vw;
+  height: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.crypto__info__box .info__main .info__main__top .symbol {
+  width: 30vw;
+  height: 25vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.crypto__info__box .info__main .info__main__top .symbol h2 {
+  font-family: 'Poppins';
+  font-weight: 100;
+  font-size: 5rem;
+  color: white;
+}
+
+.crypto__info__box .info__main .info__main__top .value {
+  width: 30vw;
+  height: 25vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.crypto__info__box .info__main .info__main__top .value h2 {
+  font-family: 'Poppins';
+  font-weight: 200;
+  font-size: 2rem;
+  color: #8de446;
+  margin-right: 5vw;
+}
+
+.crypto__info__box .info__main .info__main__top .value .percent1hr {
+  padding: 10px 10px 20px 10px;
+}
+
+.crypto__info__box .info__main .info__main__top .value .percent1hr h4 {
+  font-family: 'Poppins';
+  font-weight: 200;
+  font-size: 0.9rem;
+  padding: 3px;
+  border-radius: 3px;
+}
+
+.crypto__info__box .info__main .info__mid__row {
+  width: 60vw;
+  height: 15vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.crypto__info__box .info__main .info__mid__row .topNameArea {
+  width: 35vw;
+  height: 15vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.crypto__info__box .info__main .info__mid__row .topNameArea .name {
+  color: whitesmoke;
+  font-family: 'Poppins';
+}
+
+.crypto__info__box .info__main .info__mid__row .topNameArea .name span {
+  font-size: 0.8rem;
+  font-style: italic;
+  margin-left: -5vw;
+  font-weight: 200;
+  border-bottom: 1px solid white;
+}
+
+.crypto__info__box .info__main .info__mid__row .topNameArea .name h2 {
+  padding: 10px;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.crypto__info__box .info__main .info__mid__row .bottomDataArea {
+  width: 22vw;
+  height: 15vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.crypto__info__box .info__main .info__mid__row .bottomDataArea .marketCap {
+  color: whitesmoke;
+  font-family: 'Poppins';
+}
+
+.crypto__info__box .info__main .info__mid__row .bottomDataArea .marketCap span {
+  font-size: 0.8rem;
+  font-style: italic;
+  margin-left: -5vw;
+  font-weight: 200;
+  border-bottom: 1px solid white;
+}
+
+.crypto__info__box .info__main .info__mid__row .bottomDataArea .marketCap h2 {
+  padding: 10px;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.crypto__info__box .info__main .info__chart__area {
+  width: 60vw;
+  height: 35vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+}
+
+.crypto__info__box .info__main .info__chart__area canvas {
+  width: 60vw !important;
+  height: 30vh !important;
+}
+
+@media screen and (max-width: 600px) {
+  .crypto__info__box {
+    margin-top: 10vh;
+    min-width: 70vw;
+    max-height: 60vh;
+  }
+  .crypto__info__box .exit {
+    min-width: 70vw;
+    height: 8vh;
+  }
+  .crypto__info__box .exit h1 {
+    padding: 3vw !important;
+    font-size: 1.6rem !important;
+  }
+  .crypto__info__box .info__main {
+    min-width: 70vw;
+    max-height: 60vh;
+  }
+  .crypto__info__box .info__main .info__main__top {
+    min-width: 70vw;
+    height: 20vh;
+  }
+  .crypto__info__box .info__main .info__main__top .symbol {
+    min-width: 35vw;
+  }
+  .crypto__info__box .info__main .info__main__top .symbol h2 {
+    font-size: 3.4rem !important;
+  }
+  .crypto__info__box .info__main .info__main__top .value {
+    min-width: 35vw;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .crypto__info__box .info__main .info__main__top .value h2 {
+    font-size: 1.6rem !important;
+    margin-right: -4vw !important;
+  }
+  .crypto__info__box .info__main .info__main__top .value .percent1hr {
+    padding: 0px !important;
+  }
+  .crypto__info__box .info__main .info__main__top .value .percent1hr h4 {
+    margin: 0vw 16vw 2vw 0vw;
+    font-size: 0.7rem;
+    padding: 4px;
+  }
+  .crypto__info__box .info__main .info__mid__row {
+    min-width: 70vw;
+    height: 15vh;
+    -ms-flex-pack: distribute !important;
+        justify-content: space-around !important;
+  }
+  .crypto__info__box .info__main .info__mid__row .topNameArea {
+    min-width: 30vw;
+    height: 15vh;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .crypto__info__box .info__main .info__mid__row .topNameArea .name span {
+    font-size: 0.65rem;
+    margin-left: -2vw;
+  }
+  .crypto__info__box .info__main .info__mid__row .topNameArea .name h2 {
+    padding: 10px;
+    font-size: 0.85rem;
+  }
+  .crypto__info__box .info__main .info__mid__row .bottomDataArea {
+    min-width: 30vw;
+    height: 15vh;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .crypto__info__box .info__main .info__mid__row .bottomDataArea .marketCap span {
+    font-size: 0.65rem;
+    margin-left: -2vw;
+  }
+  .crypto__info__box .info__main .info__mid__row .bottomDataArea .marketCap h2 {
+    padding: 10px;
+    font-size: 0.85rem;
+  }
+  .crypto__info__box .info__main .info__chart__area {
+    min-width: 70vw;
+    max-height: 20vh;
+  }
+  .crypto__info__box .info__main .info__chart__area canvas {
+    min-width: 70vw !important;
+    max-height: 20vh !important;
+  }
+}
+/*# sourceMappingURL=cryptoInfoStyles.css.map */

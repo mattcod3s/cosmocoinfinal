@@ -1,0 +1,170 @@
+@keyframes fadeAnim {
+    0% {
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.form__container__mobile {
+    width: 70vw;
+    height: 42vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    .fade {
+        animation-name: fadeAnim;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-iteration-count: initial;
+    }
+
+    .wrapper {
+        width: 70vw;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .form__title {
+            width: 70vw;
+            height: 6vh;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            
+            h2 {
+                font-family: 'Poppins';
+                font-weight: 200;
+                font-size: 1.6rem;
+                color: white;
+            }
+        }
+    
+        .su_form {
+            width: 70vw;
+            height: 24vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            form {
+                width: 70vw;
+                height: 24vh;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: column;
+
+                .form__row__top {
+                    width: 60vw;
+                    height: 10vh;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .error__msg {
+                        position: absolute;
+                        color: red;
+                        font-family: 'Poppins';
+                        font-size: 0.8rem;
+                        text-align: center;
+                        font-weight: 100;
+                        padding: 10px 0 0 60px;
+                    }
+
+                    input {
+                        width: 23vw;
+                        padding: 10px;
+                        color: white;
+                        border-radius: 150px;
+                        outline: none;
+                        background: transparent;
+                        border: 1px solid white;
+                    }
+                }
+
+                .form__row {
+                    width: 70vw;
+                    height: 10vh;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    input {
+                        width:55vw;
+                        padding: 10px;
+                        border-radius: 150px;
+                        outline: none;
+                        background: transparent;
+                        border: 1px solid white;
+                        color: white;
+                    }
+                    .error__msg {
+                        position: absolute;
+                        color: red;
+                        font-family: 'Poppins';
+                        font-size: 0.8rem;
+                        text-align: center;
+                        font-weight: 100;
+                        padding: 10px 0 0 60px;
+                    }
+
+
+                    img {
+                        position: absolute;
+                        top: 25.4vh;
+                        right: 8vw;
+                        width: 28px;
+                        height: 28px;
+                        cursor: pointer;
+                        transition-duration: 0.2s;
+                    }
+                }
+            }
+        }
+    
+        .su__buttonArea {
+            width: 70vw;
+            height: 9vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .su__btn {
+                width: 22vw;
+                height: 4vh;
+                padding: 4px;
+                background: white;
+                border-radius: 150px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                margin-top: 1vh;
+                transition-duration: 0.25s;
+
+                h3 {
+                    font-family: 'Poppins';
+                    font-weight: 200;
+                    color: #333;
+                    font-size: 0.9rem;
+                }
+            }
+            .su__btn:hover {
+                background:  rgba(119, 0, 255, 0.699);
+                h3 {
+                    color: white;
+                }
+            }
+        }
+    }
+}
